@@ -78,7 +78,7 @@ void query_uart16750(uintptr_t fdt)
   struct uart16750_scan scan;
 
   // default
-  scan.freq = 50000000;
+  scan.freq = 40000000;
   scan.baud = 115200;
 
   memset(&cb, 0, sizeof(cb));
